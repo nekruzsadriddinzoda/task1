@@ -1,0 +1,64 @@
+img{
+    width:100px;
+    height:auto;
+}
+form{
+    margin:20px auto;
+}
+h1{
+    text-align:center;
+}
+div{
+    margin-left:35%;
+}
+.pagination{
+          margin-top:30px;
+        }
+.pagination li{
+            display:inline-block;
+            margin: 0 5px;
+             }
+.pagination li a{
+            display:inline-block;
+            padding: 8px 12px;
+            border:1px solid rgb(8, 122, 23);
+                }
+.pagination li a.active{
+            font-weight:bold;
+            background:green;
+            color: #FFF;
+           }
+.or:first-child{
+            background-color: green;
+            color: #FFF;
+           }
+table, tr, td, thead{
+               border: 1px solid green;
+               border-collapse: collapse;
+               padding: 5px;
+                }
+tr:hover{
+        background-color: #197c10;
+        color: #fff;
+        cursor: pointer;
+        }
+thead, .child:first-child{
+              background-color: green;
+              color: #FFF;
+               }
+input[type="submit"]{
+    margin-top: 10px;
+}
+input[type="text"], input[type="file"]{
+                border: 1px solid rgb(22, 173, 243);
+                width: 500px;
+                
+}
+.text{
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+        
+      
+   
